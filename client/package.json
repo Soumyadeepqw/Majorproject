@@ -1,0 +1,38 @@
+{
+  "name": "material-ui-nextjs-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "^5.0.0-alpha.169",
+    "@mui/material": "latest",
+    "@mui/material-nextjs": "latest",
+    "moment": "^2.30.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.51.0",
+    "react-toastify": "^10.0.5",
+    "swiper": "^11.1.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
